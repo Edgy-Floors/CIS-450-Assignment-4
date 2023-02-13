@@ -1,18 +1,17 @@
+/*
+ * EJ Flores
+ * IWeapon.cs
+ * Assignment 4
+ * This script is the interface for the weapon.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IWeapon : MonoBehaviour
+public interface IWeapon 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public void updateDescription();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public void updateDamage();
 }
